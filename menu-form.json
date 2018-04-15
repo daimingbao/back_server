@@ -1,0 +1,5 @@
+[
+    {"name":"系统菜单", "children":[
+    		{"id":"base-button", "name":"訂單管理", "target":"navtab", "url":"order.html"}
+    ]}
+]

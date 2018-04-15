@@ -1,0 +1,49 @@
+<div class="bjui-pageContent">
+	 <div class="bjui-pageContent">
+                            <table class="table table-bordered" data-toggle="datagrid" data-options="{
+    dataUrl: 'web-front/orders/qryOrderDetail.json',paging:false,filterThead:false,delPK:'order_id',toolbarItem:'del',showToolbar:true,showCheckboxcol:true,delUrl:'web-front/orders/deleteByPrimaryKey.json'
+}">
+    <thead>
+        <tr>
+           
+            
+            
+            <th data-options="{name:'order_id'}"align="center">订单编号</th>
+            <th data-options="{name:'order_time',render:function(value, data){
+var time = new Date(value);
+   
+var y = time.getFullYear();
+var m = time.getMonth() + 1;
+var d = time.getDate();
+var h = time.getHours();
+var mm = time.getMinutes();
+var s = time.getSeconds();
+return y+'/'+m+'/'+d+' '+h+':'+mm+':'+s;
+
+        },pattern:'yyyy-MM-dd HH:mm:ss'}"align="center">下单时间</th>
+            <th data-options="{name:'good_name'}"align="center">商品名称</th>
+          
+            <th data-options="{name:'user_name'}"align="center">用户名称</th>
+            <th data-options="{name:'mobile_tel'}"align="center">手机号</th>
+            <th data-options="{name:'line'}"align="center">LINE</th>
+            <th data-options="{name:'detail_addr'}"align="center">寄送地址</th>
+            <!-- <th data-options="{name:'province'}"align="center">省份</th>
+            <th data-options="{name:'city'}"align="center">城市</th>
+            <th data-options="{name:'area'}"align="center">区</th> -->
+            <th data-options="{name:'good_price'}"align="center">成交价</th>
+            <th data-options="{name:'message'}"align="center">备注留言</th>
+        </tr>
+    </thead>
+</table>
+                        </div>
+</div>
+<div class="bjui-pageFooter">
+    <ul>
+        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    
+
+
+</script>
