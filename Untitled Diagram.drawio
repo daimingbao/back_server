@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T07:24:38.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="CHOMAmFHI2OYv4hdcc8k" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T03:18:05.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Pm-E0c5YSmlblz_pyTtF" version="14.9.8" type="github">
   <diagram id="Lko1mJjZazZBHu9Fduh9" name="Page-1">
     <mxGraphModel dx="1429" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -576,7 +576,7 @@
             <mxPoint x="66" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-2UiLBpFi5a7ax2FoRXW-6" value="promoevent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-6" value="promocore的mysql从库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="1600" width="140" height="870" as="geometry" />
         </mxCell>
         <mxCell id="-2UiLBpFi5a7ax2FoRXW-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-2UiLBpFi5a7ax2FoRXW-6">
@@ -617,6 +617,42 @@
         </mxCell>
         <mxCell id="-2UiLBpFi5a7ax2FoRXW-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-2UiLBpFi5a7ax2FoRXW-55">
           <mxGeometry x="65" y="662" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-71" value="Rocketmq" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2530" width="160" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-72" value="promoevent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="2530" width="160" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-2UiLBpFi5a7ax2FoRXW-72">
+          <mxGeometry x="75" y="60" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-80" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="-2UiLBpFi5a7ax2FoRXW-72" source="-2UiLBpFi5a7ax2FoRXW-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="140" as="sourcePoint" />
+            <mxPoint x="85" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-73" value="promocore的mysql从库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="2530" width="160" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-2UiLBpFi5a7ax2FoRXW-73">
+          <mxGeometry x="75" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-75" value="拉取核对任务" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2610" as="sourcePoint" />
+            <mxPoint x="160" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-76" value="查询活动&amp;amp;奖品数据" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="390" y="2629.4" as="sourcePoint" />
+            <mxPoint x="626" y="2629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2UiLBpFi5a7ax2FoRXW-77" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="-2UiLBpFi5a7ax2FoRXW-76">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
